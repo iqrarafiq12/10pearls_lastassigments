@@ -1,0 +1,410 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+/* TOP HEADER */
+.top-header{
+    width: 1280px;
+    height: 30px;
+    background-color: #80489C;
+}
+#top-header-icon{
+    color: #fff;
+    font-size: 10px;
+    margin-top: -19px;
+    margin-left: 30px;
+}
+#top-header-p{
+    color: #fff;
+    margin-left: 43px;
+    margin-top: -15px;
+    font-size: 10px;
+}
+/* NAVBAR */
+.container{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.col-A{
+   font-size: 25px;
+   margin-top: 10px;
+margin-left: -30px;}
+.col-B{margin-top: 40px; margin-left: -280px;}
+.col-C{margin-top: 40px; margin-left: -300px;}
+.col-D{margin-top: 40px; margin-left: -280px;}
+.col-E{margin-top: 40px; margin-left: -280px;}
+.col-F{margin-top: 40px; margin-left: -280px;}
+.col-A:hover{
+    color: #EAEAEA;
+}
+.col-B:hover{color: #EAEAEA;}
+.col-C:hover{color: #EAEAEA;}
+.col-E:hover{color: #EAEAEA;}
+.col-F:hover{color: #EAEAEA;}
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+.col-1{
+    padding: 10px;
+    color: #EAEAEA;
+}
+.search-holder{
+  margin-left: 40px;
+}
+.search-holder-box{
+    width: 800px;
+    height: 30px;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+}
+#search-holder-icon{
+    font-size: 20px;
+    margin-left: -25px;
+    text-align: end;
+    margin-top: 5px;
+    color: #EAEAEA;
+}
+/* BANNER */
+.button{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background-color: #80489C;
+    text-decoration: none;
+    color: #EAEAEA;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+}
+/* container-card */
+.container-card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.cola{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* HEADING */
+.container-p{
+    justify-content: center;
+    text-align: center;
+}
+.colb{
+    font-size: 40px;
+    color: #80489C;
+    text-align: center;
+}
+
+/* PRODUCT CARDS */
+.container-p-c{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.col-product{
+    width: 350px;
+    height: 450px;
+    border: 1px solid #EAEAEA;
+    padding: 10px;
+    margin: 10px;
+}
+.container-of-icon {
+    line-height: 0fr;
+}
+.container-of-icon i{
+color: #FCE700;
+}
+.container-of-icon a{
+    line-height: 0rem;
+    text-decoration: none;
+    color: #80489C;
+}
+/* ADD THE BUTTON OF ANOTHER SECTION */
+.container-b-1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.colc button{
+    width: 300px;
+    height: 45px;
+    background-color: #80489C;
+    border: none;
+    text-align: center;
+    color: #EAEAEA;
+}
+.container-of-2-b{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container-of-2-b-h1{
+    font-size: 60px;
+    margin-top: -200px;
+    color: #fff;
+}
+.container-of-2-b-h1-button{
+    width: 200px;
+    height: 40px;
+    background-color: #80489C;
+    color: #EAEAEA;
+    border: none;
+}
+/* TWO MANUAL CARD */
+.container-of-2-manual-card{
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    height: 400px;
+}
+.carde{
+    margin-top: 50px;
+    margin: 10px;
+  padding: 10px;
+}
+.container-of-button{
+    margin-top: -60px;
+    margin-left: 30px;
+}
+.button-ce{
+    width: 150px;
+    height: 30px;
+    color: #EAEAEA;
+    background-color: #80489C;
+    border: none;
+    line-height: 0fr;
+}
+.button-top-p{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 0fr;
+    margin-top: -150px;
+}
+/* 1ST SECTION OF FOOTER */
+.container-of-first-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 1280px;
+    height: 150px;
+}
+.column-1{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+  background-color: #EAEAEA;
+    width: 600px;
+    justify-content: center;
+}
+.headings-on-footer{
+    text-align: center;
+}
+.headings-on-footer h2{
+    color: grey;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 0fr;
+    text-align: left;
+}
+.headings-on-footer p{
+    font-size: 12px;
+    color: rgb(198, 193, 193);
+    line-height: 0fr;
+    text-align: left;
+}
+/* LAST FOOTER */
+.container-footer{
+    width: 1280px;
+    height: 300px;
+    background-color: #80489C;
+    justify-content: center;
+    display: flex;
+}
+.column2{
+    width: 400px;
+    height: 500px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+.container-of-footer-h{
+    color: #fff;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.container-of-footer-h img{
+    margin-left: 10px;
+}
+.box-of-text{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.box-of-text i{
+    font-size: 18px;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.container-extra{
+    font-size: 10px;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+}
+/* EXTRA LAST FOOTER */
+.container-of-extra-last-footer{
+    width: 1280px;
+    height: 50px;
+    background-color: #80489C;
+    text-align: center;
+    justify-content: center;
+}
+.container-of-extra-last-footer p{
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-of-extra-last-footer p a{
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 5px;
+}
+/* INDEX FT 2 . HTML | FILE ATTECH ON THE PRODUCTS NAMES */
+.container-top-area{
+    width: 1280px;
+    height: 30px;
+    background-color: #001253;
+}
+.container-top-area p{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 600px;
+    height: 500px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 600px;
+    height: 500px;
+}
+
+.gmap_iframe {
+    width: 600px !important;
+    height: 500px !important;
+    margin: 10px;
+    padding: 10px;
+}
+/* FORM TYPE */
+.container-of-form{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #EAEAEA;
+    margin-left: 650px;
+    margin-top: -450px;
+}
+.form-h{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.contacts{
+    width:398px ;
+    border: 1px solid #EAEAEA;
+    height: 50px;
+    text-align: left;
+    font-size: 14px;
+    color: #EAEAEA;
+}
+.Email-addresses{
+    width: 398px;
+    border: 1px solid #EAEAEA;
+    height: 50px;
+    text-align: left;
+    font-size: 14px;
+}
+.comments{
+    width: 398px;
+    height: 200px;
+    border: 1px solid #EAEAEA;
+}
+.form-button{
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background-color: #001253;
+    color: #EAEAEA;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 350px;
+    height: 30px;
+}
+/* DISCRIPTION LIST */ 
+.conatiner-of-discription{
+    text-align: center;
+    margin-top: 60px;
+}
+.col-01 p{
+    font-weight: bold;
+}
+.dot1 {
+    height: 10px;
+    width: 10px;
+    background-color: #3E6D9C;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: #001253;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot3 {
+    height: 10px;
+    width: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot4 {
+    height: 10px;
+    width: 10px;
+    background-color: #80489C;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .icon-under-button{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #001253;
+    border: none;
+  }
+  .icon-under-button:hover{
+    background-color: #3E6D9C;
+  }

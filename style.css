@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.searchbar {
+    width: 700px;
+    height: 35px;
+    margin-left: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(222, 184, 135, 0.308);
+}
+
+.searchbar:hover {
+    background-color: rgba(105, 99, 99, 0.281);
+}
+
+.search {
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: rgba(219, 212, 212, 0);
+}
+
+.logo {
+    display: flex;
+    color: brown;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: brown;
+}
+
+.nav_links li a:hover {
+    color: burlywood;
+}
+
+.banner {
+    background-image: url(./banner\ 3.png);
+    width: 1280px;
+    height: 768px;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 500px;
+}
+
+h1 {
+    font-size: 24px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.button {
+    margin-left: 750px;
+    margin-top: 100px;
+    width: 200px;
+    height: 30px;
+    font-size: medium;
+    background-color: rgba(222, 184, 135, 0.308);
+    border-radius: 4px;
+    border: none;
+}
+
+.button:hover {
+    background-color: brown;
+}
+
+.container1 {
+    background-image: url(./trans.jfif);
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    opacity: 0.9;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.button1 {
+    margin: 0;
+    position: absolute;
+    background-color: beige;
+    border: none;
+    width: 100px;
+    height: 30px;
+    top: 1140px;
+    left: 310px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.button1:hover {
+    background-color: brown;
+}
+
+.container2 {
+    background-image: url(./trans2.jfif);
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    opacity: 0.9;
+    margin-left: 610px;
+    margin-top: -500px;
+}
+
+p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.button2 {
+    margin: 0;
+    position: absolute;
+    border: none;
+    width: 60px;
+    height: 30px;
+    top: 1140px;
+    left: 860px;
+    font-size: 18px;
+    background-color: beige;
+    border-radius: 5px;
+    border: none;
+}
+
+.button2:hover {
+    background-color: brown;
+}
+
+.mySlides {
+    display: none;
+}
+
+.text-box {
+    background-image: url(./banner\ \ 2.jpg);
+    width: 800px;
+    height: 1000px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.button3 {
+    width: 200px;
+    height: 30px;
+    font-size: medium;
+    background-color: beige;
+    border-radius: 4px;
+    border: none;
+}
+
+.button3:hover {
+    background-color: brown;
+    color: #fff;
+}
+
+h3 {
+    margin-left: 360px;
+    text-align: center;
+  font-size: 30px;
+  color:brown;
+}
+
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.gallery content{
+    padding: 15px;
+  text-align: center;
+  }
+  .h01{
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+  }
+  .h02{
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+  }
+  .h03{
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+  }
+  .h04{
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+  }
+  h6{
+    font-size: 10px;
+    text-align: center;
+    opacity: 0.6;
+    color: brown;
+  }
+  h4{
+    text-align: center;
+    font-size: 18px;
+color: brown;
+  }
+  h4:hover{
+    color: black;
+  }
+  ul{
+    flex: 1;
+    text-align: center;
+  }
+  ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 7px;
+  }
+  ul li a{
+    color: brown;
+  }
+  ul li a:hover{
+    color: burlywood;
+  }
+.buy1{
+    width: 100%;
+    height: 50px;
+    margin-top: -35px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+}
+.buy1:hover{
+    background-color:burlywood;
+    color: brown;
+}
+h5{
+    text-align: center;
+  font-size: 45px;
+  color:brown;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto  auto auto auto auto auto auto auto auto auto auto auto auto  auto auto auto auto auto ;
+    gap: 5px;
+    width: 800px;
+    height: 30px;
+    padding: 5px;
+  }
+  .footer{
+    padding: 40px 0;
+    background-color: antiquewhite;
+    width: 1280px ;
+    height: 200px;
+  }
+  .footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: brown;
+  }
+  .footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc ;
+    width: 40px;
+    height: 40px;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+  }
+  .footer .social a:hover{
+    opacity: 0.9;
+  }
+  .footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  .footer ul li{
+    display: inline;
+    padding: 0 15px;
+  }
+  .footer ul a:hover{
+    opacity: 1;
+  }
+  .footer .copyright{
+    margin-top: -140px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(165, 42, 42, 0.5);
+  }
+  .alertalert-success{
+    width: 1280px;
+    height: 200px;
+  }

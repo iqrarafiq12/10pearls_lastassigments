@@ -1,0 +1,19 @@
+header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#product-list {
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-card {
+    width: 20%;
+    margin: 20px 2%;
+}
